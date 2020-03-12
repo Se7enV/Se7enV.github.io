@@ -194,10 +194,16 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2020-03-03 17:28:17 / 修改时间：17:59:36" itemprop="dateCreated datePublished" datetime="2020-03-03T17:28:17+08:00">2020-03-03</time>
+              <time title="创建时间：2020-03-03 17:28:17" itemprop="dateCreated datePublished" datetime="2020-03-03T17:28:17+08:00">2020-03-03</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-03-12 12:30:41" itemprop="dateModified" datetime="2020-03-12T12:30:41+08:00">2020-03-12</time>
+              </span>
 
           <br>
             <span class="post-meta-item" title="本文字数">
@@ -205,14 +211,14 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>509</span>
+              <span>842</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="fa fa-clock-o"></i>
               </span>
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
+              <span>2 分钟</span>
             </span>
 
         </div>
@@ -347,10 +353,16 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2020-02-10 11:41:02 / 修改时间：15:27:22" itemprop="dateCreated datePublished" datetime="2020-02-10T11:41:02+08:00">2020-02-10</time>
+              <time title="创建时间：2020-02-10 11:41:02" itemprop="dateCreated datePublished" datetime="2020-02-10T11:41:02+08:00">2020-02-10</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-03-03 18:12:48" itemprop="dateModified" datetime="2020-03-03T18:12:48+08:00">2020-03-03</time>
+              </span>
 
           <br>
             <span class="post-meta-item" title="本文字数">
@@ -381,60 +393,15 @@
 <li>时间复杂度</li>
 <li>空间复杂度</li>
 </ul>
-<h4 id="运用领域"><a href="#运用领域" class="headerlink" title="运用领域"></a>运用领域</h4><ol>
-<li>运算</li>
-<li>查找</li>
-<li>排序</li>
-<li>最优决策</li>
-<li>面试（hhhhhh）</li>
-</ol>
-<h3 id="数据结构（data-structure）"><a href="#数据结构（data-structure）" class="headerlink" title="数据结构（data structure）"></a>数据结构（data structure）</h3><p>是数据的组织、管理和存储格式，其使用目的是为了高效地访问和修改数据。</p>
-<h4 id="组成方式"><a href="#组成方式" class="headerlink" title="组成方式"></a>组成方式</h4><ol>
-<li><p>线性结构</p>
-<p>最简单的数据结构，包括数组、链表，以及由它们衍生出来的栈、队列、哈希表。</p>
-</li>
-<li><p>树</p>
-<p>相对复杂的数据结构，比较有代表性的是二叉树，由它又衍生出了二叉堆之类的数据结构。</p>
-</li>
-<li><p>图</p>
-<p>更为复杂的数据结构，因为在图中会呈现出多对多的关联关系。</p>
-</li>
-<li><p>其他数据结构</p>
-<p>都是由基本数据结构变形而来，用于解决某些特定问题，如跳表、哈希链表、位图等。</p>
-</li>
-</ol>
-<h3 id="算法和数据结构的关系"><a href="#算法和数据结构的关系" class="headerlink" title="算法和数据结构的关系"></a>算法和数据结构的关系</h3><p>有了数据结构这个舞台，算法才可以尽情舞蹈。</p>
-<p>在解决问题时，不同的算法会选用不同的数据结构。</p>
-<h2 id="1-2时间复杂度"><a href="#1-2时间复杂度" class="headerlink" title="1.2时间复杂度"></a>1.2时间复杂度</h2><h3 id="基本操作执行次数"><a href="#基本操作执行次数" class="headerlink" title="基本操作执行次数"></a>基本操作执行次数</h3><h4 id="场景1"><a href="#场景1" class="headerlink" title="场景1"></a>场景1</h4><p>1个长度10cm的面包，每3分钟吃掉1cm，那么吃掉整个面包需要多久？</p>
-<p>3 x 10 = 30分钟</p>
-<p>如果面包的长度是n cm，此时需要 3 x n = 3n分钟。</p>
-<p>此时用一个函数表达吃掉整个面包所需要的时间，<strong>T(n) = 3n</strong>，n为面包的长度。</p>
-<h4 id="场景2"><a href="#场景2" class="headerlink" title="场景2"></a>场景2</h4><p>1个长度16cm的面包，每5分钟吃掉面包剩余长度的一半，即第5分钟吃掉8cm，第10分钟吃掉4cm，第15分钟吃掉2cm，那么把面包吃得只剩1cm，需要多久？</p>
-<p>用数学方式表达就是，数字16不断地除于2，除几次以后的结果等于1？即以2为底16的对数$log_2 16$</p>
-<p><strong>（后续的对数函数的底数全部省略）</strong></p>
-<p>因此，把面包吃得只剩下1cm，需要 5 x log16 = 20分钟。</p>
-<p>如果面包的长度是n cm，此时需要5乘以logn = 5log<em>n</em>分钟，记作<strong>T(n) = 5log<em>n</em></strong></p>
-<h4 id="场景3"><a href="#场景3" class="headerlink" title="场景3"></a>场景3</h4><p>1个长度10cm的面包和1个鸡腿，每2分钟吃掉1个鸡腿。那么吃掉整个鸡腿需要多久？</p>
-<p>答案自然是2分钟。因为这里只要求吃掉鸡腿，和10cm的面包没有关系。</p>
-<p>如果面包的长度是n cm呢？</p>
-<p>无论面包多长，吃掉鸡腿的时间都是2分钟，记作<strong>T(n) = 2</strong></p>
-<h4 id="场景4"><a href="#场景4" class="headerlink" title="场景4"></a>场景4</h4><p>1个长度为10cm的面包，小灰吃掉第1个1cm需要1分钟，吃掉第2个1cm需要2分钟，吃掉第3个1cm需要3分钟时间……每吃1cm所花的时间就比吃上一个多用1分钟。那么吃掉整个鸡腿需要多久？</p>
-<p>答案是从1累加到10的总和，也就是55分钟。</p>
-<p>如果面包的长度是n cm呢？</p>
-<p>根据高斯算法，此时吃掉整个面包需要 1+2+3+…+(n-1)+n 即 (1+n) x n/2分钟，也就是$0.5n^2+0.5n$分钟，</p>
-<p>记作<strong>$T(n) = 0.5n^2+0.5n$</strong></p>
-<h4 id="程序基本操作执行次数的统计"><a href="#程序基本操作执行次数的统计" class="headerlink" title="程序基本操作执行次数的统计"></a>程序基本操作执行次数的统计</h4><p>设T(n)为程序<strong>基本操作执行次数</strong>的函数（也可以认为是程序的相对执行时间函数），n为输入规模，刚才的4个场景分别对应了程序中最常见的4种执行方式。</p>
-<h5 id="场景1-1"><a href="#场景1-1" class="headerlink" title="场景1"></a>场景1</h5><p>T(n) = 3n，执行次数是<strong>线性</strong>的。</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">eat1</span><span class="params">(<span class="keyword">int</span> n)</span></span>&#123;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>; i&lt;n; i++)&#123;</span><br><span class="line">        System.out.println(<span class="string">"等待1分钟"</span>);</span><br><span class="line">        System.out.println(<span class="string">"等待1分钟"</span>);</span><br><span class="line">        System.out.println(<span class="string">"吃1cm面包"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h5 id="场景2-1"><a href="#场景2-1" class="headerlink" title="场景2"></a>场景2</h5><p>T(n) = 5logn，执行次数是用<strong>对数</strong>计算的。</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">eat2</span><span class="params">(<span class="keyword">int</span> n)</span></span>&#123;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=n; i&gt;<span class="number">1</span>; i/=<span class="number">2</span>)&#123;</span><br><span class="line">        System.out.println(<span class="string">"等待1分钟"</span>);</span><br><span class="line">        System.out.println(<span class="string">"等待1分钟"</span>);</span><br><span class="line">        System.out.println(<span class="string">"吃1cm面包"</span>);</span><br><span class="line">        System.out.println(<span class="string">"吃一半面包"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h5 id="场景3-1"><a href="#场景3-1" class="headerlink" title="场景3"></a>场景3</h5><p>T(n) = 2，执行次数是<strong>常量</strong>。</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">eat3</span><span class="params">(<span class="keyword">int</span> n)</span></span>&#123;</span><br><span class="line">    System.out.println(<span class="string">"等待1分钟"</span>);</span><br><span class="line">    System.out.println(<span class="string">"吃1个鸡腿"</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h5 id="场景4-1"><a href="#场景4-1" class="headerlink" title="场景4"></a>场景4</h5><p>T(n) = 2，执行次数是<strong>常量</strong>。</p>
-
+<h4 id="运用领域"><a href="#运用领域" class="headerlink" title="运用领域"></a>运用领域</h4>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2020/02/10/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -1029,7 +996,7 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">34 分钟</span>
+    <span title="站点阅读时长">35 分钟</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v4.2.0
   </div>
